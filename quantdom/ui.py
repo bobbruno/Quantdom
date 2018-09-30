@@ -7,7 +7,7 @@ from datetime import datetime
 
 from PyQt5 import QtCore, QtGui
 
-from .lib import (  # noqa
+from quantdom.lib import (  # noqa
     Quotes, Symbol, Portfolio,
     EquityChart, QuotesChart,
     ResultsTable, TradesTable, OptimizationTable,
